@@ -10,7 +10,7 @@ namespace Fitness_Logger.ViewModels
         public AboutViewModel()
         {
             Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://www.youtube.com/watch?v=xvFZjo5PgG0"));
         }
 
         public ICommand OpenWebCommand { get; }
