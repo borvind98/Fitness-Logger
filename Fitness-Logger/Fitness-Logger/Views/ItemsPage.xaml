@@ -23,10 +23,12 @@
                     <StackLayout Padding="10" x:DataType="model:Item">
                         <Label Text="{Binding Text}" 
                             LineBreakMode="NoWrap" 
-                            Style="{DynamicResource ListItemTextStyle}" 
+                            Style="{DynamicResource ListItemTextStyle}"
+                            TextColor="Black"
                             FontSize="16" />
                         <Label Text="{Binding Description}" 
                             LineBreakMode="NoWrap"
+                            TextColor="Black"
                             Style="{DynamicResource ListItemDetailTextStyle}"
                             FontSize="13" />
                         <StackLayout.GestureRecognizers>
